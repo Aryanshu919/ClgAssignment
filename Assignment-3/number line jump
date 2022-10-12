@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main (){
+    int k1,v1,k2,v2;
+cin >> k1 >> v1 >> k2 >>v2;
+if((v2>=v1) || (k2- k1) % (v2 -v1)){
+    cout << "NO";
+}   
+else {
+    cout << "YES";
+} 
+return 0;
+}
